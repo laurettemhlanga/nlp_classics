@@ -12,32 +12,33 @@ This project applies Natural Language Processing (NLP) and Sentiment Analysis to
  - Emma (ID: 158)
  - Mansfield Park (ID: 141)
 
-📜 README.md             # Project overview  
-📂 data/                 # Raw text files of books  
-│   ├── pride_prejudice.txt  
-│   ├── sense_sensibility.txt  
-│   ├── emma.txt  
-│   ├── mansfield_park.txt  
-│   ├── processed_data.csv  
-📂 images/               # Sentiment visualizations  
-│   ├── sentiment_trend.png  
-│   ├── gender_sentiment_comparison.png  
-│   ├── wordcloud_positive.png  
-│   ├── wordcloud_negative.png  
-📂 notebooks/            # Jupyter Notebooks for analysis  
-│   ├── sentiment_analysis.ipynb  
-│   ├── gender_bias_analysis.ipynb  
-│   ├── ml_book_classification.ipynb  
-📂 r_scripts/            # R scripts for sentiment analysis  
-│   ├── sentiment_analysis.R  
-│   ├── gender_bias_analysis.R  
-📂 docs/                 # Additional documentation  
-│   ├── project_description.md  
-│   ├── methodology.md  
-📂 models/               # Machine learning classification models  
-│   ├── trained_model.pkl  
-│   ├── model_performance_metrics.json  
-  
+**File organization**
+nlp_classics           
+ 📂 data/                 
+    ├── pride_prejudice.txt  
+    ├── sense_sensibility.txt  
+    ├── emma.txt  
+    ├── mansfield_park.txt  
+    ├── processed_data.csv  
+ 📂 images/               
+    ├── sentiment_trend.png  
+    ├── gender_sentiment_comparison.png  
+    ├── wordcloud_positive.png  
+    ├── wordcloud_negative.png  
+ 📂 notebooks/             
+    ├── sentiment_analysis.ipynb  
+    ├── gender_bias_analysis.ipynb  
+    ├── ml_book_classification.ipynb  
+ 📂 r_scripts/           
+    ├── sentiment_analysis.R  
+    ├── gender_bias_analysis.R  
+ 📂 docs/                 #
+    ├── project_description.md  
+    ├── methodology.md  
+ 📂 models/               # Machine learning classification models  
+    ├── trained_model.pkl  
+    ├── model_performance_metrics.json  
+ 📜 README.md    
 
 **Methods Used**
 - Sentiment Analysis: Bing, NRC, AFINN, VADER
