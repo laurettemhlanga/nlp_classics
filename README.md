@@ -15,35 +15,28 @@ This project applies Natural Language Processing (NLP) and Sentiment Analysis to
 **File organization**
 
 nlp_classics 
-
-- 📂 data/   
- 
+📂 data/   
     ├── pride_prejudice.txt  
     ├── sense_sensibility.txt  
     ├── emma.txt  
     ├── mansfield_park.txt  
     ├── processed_data.csv  
  📂 images/   
- 
     ├── sentiment_trend.png  
     ├── gender_sentiment_comparison.png  
     ├── wordcloud_positive.png  
     ├── wordcloud_negative.png  
  📂 notebooks/  
- 
     ├── sentiment_analysis.ipynb  
     ├── gender_bias_analysis.ipynb  
     ├── ml_book_classification.ipynb  
  📂 r_scripts/  
- 
     ├── sentiment_analysis.R  
     ├── gender_bias_analysis.R  
  📂 docs/     
- 
     ├── project_description.md  
     ├── methodology.md  
  📂 models/  
- 
     ├── trained_model.pkl  
     ├── model_performance_metrics.json  
  📜 README.md    
