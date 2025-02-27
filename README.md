@@ -12,13 +12,32 @@ This project applies Natural Language Processing (NLP) and Sentiment Analysis to
  - Emma (ID: 158)
  - Mansfield Park (ID: 141)
 
-📜 README.md            - Project overview  
-📂 data/                - Raw text files of books  
-📂 images/              - Sentiment visualizations  
-📂 notebooks/           - Jupyter Notebooks for analysis  
-📂 r_scripts/           - R scripts for sentiment analysis  
-📂 docs/                - Additional documentation  
-📂 models/              - Machine learning classification models  
+📜 README.md             # Project overview  
+📂 data/                 # Raw text files of books  
+│   ├── pride_prejudice.txt  
+│   ├── sense_sensibility.txt  
+│   ├── emma.txt  
+│   ├── mansfield_park.txt  
+│   ├── processed_data.csv  
+📂 images/               # Sentiment visualizations  
+│   ├── sentiment_trend.png  
+│   ├── gender_sentiment_comparison.png  
+│   ├── wordcloud_positive.png  
+│   ├── wordcloud_negative.png  
+📂 notebooks/            # Jupyter Notebooks for analysis  
+│   ├── sentiment_analysis.ipynb  
+│   ├── gender_bias_analysis.ipynb  
+│   ├── ml_book_classification.ipynb  
+📂 r_scripts/            # R scripts for sentiment analysis  
+│   ├── sentiment_analysis.R  
+│   ├── gender_bias_analysis.R  
+📂 docs/                 # Additional documentation  
+│   ├── project_description.md  
+│   ├── methodology.md  
+📂 models/               # Machine learning classification models  
+│   ├── trained_model.pkl  
+│   ├── model_performance_metrics.json  
+  
 
 **Methods Used**
 - Sentiment Analysis: Bing, NRC, AFINN, VADER
@@ -26,10 +45,17 @@ This project applies Natural Language Processing (NLP) and Sentiment Analysis to
 - Data Visualization: ggplot2, matplotlib, wordcloud
 - Machine Learning for Book Classification: Naïve Bayes, Logistic Regression
 
+**Theme 1: Sentiment Trends in Literature** How do emotions shift across different books?
+- Analyzing sentiment flow across chapters
+- Tracking emotional arcs in storytelling
+- Comparing sentiment distributions in different books
 
-**Theme 1: Sentiment Trends in Literature**
-How do emotions shift across different books?
--- Analyzing sentiment flow across chapters
--- Tracking emotional arcs in storytelling
--- Comparing sentiment distributions in different books
+**Theme 2: Gender & Sentiment Bias** Do male and female characters have different sentiment scores?
+- Are female characters assigned more “negative” sentiment words than male characters?
+- Are male characters associated with rationality while females get emotional adjectives?
+- Is Austen’s portrayal of gender reflected in modern AI sentiment analysis?
 
+ **Theme 3: Machine Learning for Book Classification** Can sentiment-based features predict which book a paragraph comes from?
+- Building a classifier to predict Austen book authorship
+- Training a sentiment-based ML model on text excerpts
+- Exploring genre classification using emotional ton
