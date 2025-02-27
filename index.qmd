@@ -1,0 +1,40 @@
+---
+title: "Sentiments analysis of Jane Austen books"
+author: "Laurette Mhlanga"
+format: html
+editor: visual
+---
+
+## Introduction 
+
+Jane Austen’s novels are celebrated for their wit, social commentary, and deep exploration of human emotions. Most of the characters potrayed in her books navigate complex social landscapes, where dialogue plays a crucial role in shaping relationships, conflicts, and resolutions. I set out to apply a **sentiment analysis**, to quantitatively examine the emotional tone of different characters and uncover patterns in how sentiment is distributed across her work.
+
+This analysis focuses on three of Austen’s most famous novels - *Pride and Prejudice*, *Emma*, and *Sense and Sensibility* - I explore:
+
+-   How **character sentiment varies across different novels**
+
+-   The **emotional expression of male vs. female characters**
+
+-   How **key protagonists and supporting characters differ in sentiment trends**
+
+I use **natural language processing (NLP) techniques**, to extract character dialogues, measure sentiment polarity (positive, neutral, or negative), and visualize sentiment arcs throughout the novels. This approach provides a **data-driven perspective on Austen’s storytelling**, revealing how sentiment aligns with themes of love, social class, and gender roles in 19th-century literature.
+
+The analysis gives a deeper understanding of Austen’s literary style and the emotional depth of her characters, shedding light on how sentiment contributes to narrative development and character arcs.
+
+![A bar chat showing the sentiments distribution expressed in the books.](images/sentiment_distribution.png)
+
+The sentiment distribution in *Emma*, *Pride and Prejudice*, and *Sense and Sensibility* highlights distinct emotional tones in Austen’s storytelling style. *Emma* exhibits the highest levels of **anticipation, trust, and positivity**, reflecting the protagonist’s dynamic personality and social maneuvering. *Pride and Prejudice* balances **positive and negative sentiment**, with strong themes of **misunderstanding and growth**. *Sense and Sensibility* shows **higher sadness and joy**, mirroring its contrast between rationality and deep emotion. Among the three, *Emma* is the most emotionally expressive, followed by *Pride and Prejudice*, while *Sense and Sensibility* maintains a **more melancholic yet hopeful tone**. The variation suggests that Austen tailors sentiment to character arcs and social themes, reinforcing her nuanced portrayal of romance, class, and personal transformation.
+
+![Overall sentiments relating to each character throughout the books](images/sentiments_characters.png)
+
+### **Sentiment Trends Across Austen’s Novels**
+
+The sentiment distribution across *Emma*, *Pride and Prejudice*, and *Sense and Sensibility* reveals unique emotional dynamics among characters. *Emma* exhibits the highest average sentiment score, with Emma herself leading in positivity, followed by Harriet and Knightley. Frank, however, has a lower sentiment score, reflecting his more secretive and ambiguous role. In *Pride and Prejudice*, Elizabeth and Jane show the most positive sentiment, while Darcy remains neutral, aligning with his reserved nature. Surprisingly, Bingley’s sentiment trends slightly negative, possibly due to the emotional challenges he faces throughout the novel. *Sense and Sensibility* follows a clear contrast between Elinor and Marianne—Elinor, embodying rationality, holds the highest sentiment, while Marianne, driven by passion and emotion, shows the lowest, reinforcing the book’s core theme of sense versus sensibility.
+
+### **Gender and Sentiment in Austen’s Novels**
+
+Austen’s female protagonists generally express **higher sentiment scores** compared to male characters, aligning with their central roles in social engagement and dialogue. **Emma, Elinor, Jane, and Elizabeth** are depicted as expressive and engaging, reinforcing societal expectations for women to be communicative and emotionally perceptive. In contrast, **Darcy, Bingley, and Frank** display neutral or slightly negative sentiment, which reflects the 19th-century portrayal of men as emotionally reserved and indirect. Interestingly, romantic male figures like Edward and Willoughby score slightly higher in sentiment, likely due to their roles as love interests. Marianne is an exception among female characters—her lower sentiment reflects her deep emotional struggles, reinforcing her role as a tragic, impulsive figure.
+
+### **Thematic Implications: Sentiment and Social Expectations**
+
+The sentiment trends in Austen’s novels highlight how **social expectations shape emotional expression**. Female characters’ higher sentiment may reflect the need to **navigate complex social settings, maintain civility, and embody charm and politeness**, even in distress. Male characters, in contrast, exhibit **emotional restraint and control**, conforming to societal norms that expect them to be reserved. **Darcy’s low sentiment score aligns with his character arc—starting as emotionally detached before gradually revealing warmth and vulnerability.** Overall, this analysis underscores how **Austen uses sentiment as a tool to reinforce gender roles and character development**, where women are expressive and men are emotionally guarded, yet evolving through the course of the narrative.

@@ -107,3 +107,22 @@ plot_wordcloud <- function(book_df, sentiment_type) {
     count(word, sort = TRUE) %>%
     with(wordcloud(word, n, max.words = 100, colors = brewer.pal(8, "Dark2")))
 }
+
+
+extract_character_sentences <- function(text, character_list, book_name) {
+  # Function to extract sentences containing character mentions
+  # Split text into sentences
+  # Create a dataframe of sentences
+  # Filter sentences where character names appear
+  
+  sentences <- unlist(strsplit(text, "(?<=[.!?])\\s+", perl = TRUE))  
+  sentence_df <- tibble(sentence = sentences)
+  
+  
+  character_sentences <- sentence_df %>%
+    filter(str_detect(sentence, paste(character_list, collapse = "|"))) %>%
+    mutate(character = str_extract(sentence, paste(character_list, collapse = "|")), 
+           book = book_name)  
+  
+  return(character_sentences)
+}
