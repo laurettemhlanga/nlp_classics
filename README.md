@@ -13,6 +13,7 @@ This project applies Natural Language Processing (NLP) and Sentiment Analysis to
  - Mansfield Park (ID: 141)
 
 **File organization**
+
 nlp_classics           
  📂 data/                 
     ├── pride_prejudice.txt  
